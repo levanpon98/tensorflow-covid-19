@@ -78,7 +78,6 @@ labels = to_categorical(labels)
 
 # initialize the training data augmentation object
 trainAug = ImageDataGenerator(
-	rotation_range=15,
                                   samplewise_center=True,
                                   samplewise_std_normalization=True,
                                   horizontal_flip=True,
